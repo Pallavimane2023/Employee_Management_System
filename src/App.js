@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Routes, BrowserRouter as Router ,useLocation} from 'react-router-dom';
+import LoginPage from './components/Login/Login';
+import  HomePage from './components/Home/HomePage';
+import { EditEmployee } from './components/UpdateEmployee/EditEmp';
+import ProtectedRoute from './ProtectedRoute';
+import PageNotFound from './components/NotFound/PageNotFound';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (    
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route element={<ProtectedRoute/>}>
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/add-user" element={<EditEmployee/>} />
+          <Route path="/home/edit-user/:id" element={<EditEmployee />} />
+          <Route path= "*" element= {<PageNotFound/>} replace />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #0e3a65;
+    color: white;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .headerRow {
+    background-color: rgb(233, 231, 231);
+  }
+  .tableHeader {
+    font-weight: bold !important;
+  }
+  .addButtonWrapper {
+    text-align: right;
+    margin: 10px
+    
+  }
+
+  h2{
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+

@@ -1,0 +1,37 @@
+
+.LoginPageContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a85b6, purple);
+}
+
+.Container {
+  width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+
+  @media (max-width: 480px) {
+    width: 90%;
+  }
+
+}
+
+h2{
+    text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+
+
+}
+
+p{
+    color: red;
+  text-align: center;
+  margin-top: 10px;
+}

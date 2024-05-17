@@ -1,0 +1,92 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "username": "Leanne.Graham",
+      "password": "password123",
+      "phone": "7709788342",
+      "jobTitle": "Software Engineer",
+      "email": "Leanne@april.biz",
+      "role": "Admin",
+      "department": "Information Technology"
+    },
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "username": "Ervin.Howell",
+      "password": "password345",
+      "phone": "7754326785",
+      "jobTitle": "Devops Engineer",
+      "email": "Shanna@melissa.tv",
+      "role": "Admin",
+      "department": "Information Technology"
+    },
+    {
+      "id": "3",
+      "name": "Arun Mahajan",
+      "username": "Arun.Mahajan",
+      "password": "password567",
+      "phone": "8809755647",
+      "jobTitle": "Test Engineer",
+      "email": "Arun@melissa.tv",
+      "role": "User",
+      "department": "QA Automation"
+    },
+    {
+      "id": "4",
+      "name": "Elina Jain",
+      "username": "Elina.Jain",
+      "password": "password789",
+      "phone": "8809655234",
+      "jobTitle": "Data Engineer",
+      "email": "Elina@melissa.tv",
+      "role": "Admin",
+      "department": "Data Science"
+    },
+    {
+      "id": "25d4",
+      "name": "Pallavi Mane",
+      "username": "Pallavi.Mane",
+      "password": "password",
+      "phone": "77654327899",
+      "department": "IT",
+      "email": "pallavi@melissa.tv",
+      "role": "Admin",
+      "jobTitle": "Business Analyst"
+    },
+    {
+      "id": "7",
+      "name": "Megha Mane",
+      "username": "Megha.Mane",
+      "password": "password@345",
+      "phone": "7709844365",
+      "jobTitle": "Data Engineer",
+      "email": "megha@vp.com",
+      "role": "User",
+      "department": "Data Science"
+    },
+    {
+      "id": "8",
+      "name": "Snehal Raut",
+      "username": "Snehal.Raut",
+      "password": "password789",
+      "phone": "9970865467",
+      "jobTitle": "Web UI Developer",
+      "email": "snehal@vp.com",
+      "role": "User",
+      "department": "Information Technology"
+    },
+    {
+      "id": "9",
+      "name": "Anuj Kadam",
+      "username": "Anuj.Kadam",
+      "password": "password@234",
+      "phone": "8809765432",
+      "jobTitle": "Deveops Engineer",
+      "email": "anuj@vp.com",
+      "role": "User",
+      "department": "IT"
+    }
+  ]
+}
